@@ -1,4 +1,7 @@
-function ServiceDetails({foto, altFoto, titleService, textService1, textService2,textService3, textService4,titleAcordeon1, titleAcordeon2, titleAcordeon3, textAcordeon1,textAcordeon12,textAcordeon2,textAcordeon21,textAcordeon3,textAcordeon31, foto2, altFoto2}) {
+import Img from 'next/image'
+
+
+function ServiceDetails({foto, altFoto, titleService, textService1, textService2,textService3, textService4,titleAcordeon1, titleAcordeon2, titleAcordeon3, textAcordeon1,textAcordeon12,textAcordeon2,textAcordeon21,textAcordeon3,textAcordeon31, foto2, altFoto2, ancho, altura, fotoInferior, altFotoInferior, anchoInferior, alturaInferior}) {
   return (
     <>
       {/* /.page-header */}
@@ -8,7 +11,7 @@ function ServiceDetails({foto, altFoto, titleService, textService1, textService2
             <main className="col-sm-8 col-md-8">
               <div className="service-detail">
                 <div className="service-image">
-                  <img src={foto} alt={altFoto} />
+                  <img src={foto} alt={altFoto} width={ancho} height={altura} />
                 </div>
                 <h2>{titleService}</h2>
                 <p style={{ textAlign: "justify" }}>{textService1}</p>
@@ -186,7 +189,7 @@ function ServiceDetails({foto, altFoto, titleService, textService1, textService2
                       <div className="client-item">
                         <div className="client-item-inner">
                           <a href="#">
-                            <img src="images/home1/client1.jpg" alt="client" />
+                            <img src={fotoInferior} alt={altFotoInferior} width={anchoInferior} height={alturaInferior}/>
                           </a>
                         </div>
                       </div>

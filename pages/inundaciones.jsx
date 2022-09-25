@@ -11,7 +11,7 @@ function inundaciones() {
       <ServiceDetails
         foto={"images/home1/client1.jpg"}
         fotoAlt={""}
-        foto2={"images/home1/client1.jpg"}
+        foto2={"images/home1/client2.jpg"}
         fotoAlt2={""}
         titleService={"Inundaciones"}
         textService1={
