@@ -3,17 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <div className="search-area">
-        <div className="search-area-inner">
-          <form action="">
-            <input
-              type="text"
-              name="search"
-              placeholder="Type & Hits Enter..."
-            />
-          </form>
-        </div>
-      </div>
+      
       {/* start header  */}
       <header id="header">
         <div className="header-top">
@@ -124,25 +114,37 @@ export default function Header() {
                       id="bs-example-navbar-collapse-1"
                     >
                       <ul className="navbar-menu">
-                        <li>
+                        <li className="dropdown">
                           <Link href="/">
-                          <a>
-                            <span>Inicio</span>
-                          </a>
+                            <a
+                              className="dropdown-toggle"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
+                              <span>Inicio</span>
+                            </a>
                           </Link>
                         </li>
 
                         <li>
                           <Link href="/about">
-                          <a>
-                            <span>Quiénes Somos</span>
-                          </a>
+                            <a>
+                              <span>Quiénes Somos</span>
+                            </a>
                           </Link>
                         </li>
 
                         <li className="dropdown">
-                          <Link href="servicios">
-                            <a>
+                          <Link href="#">
+                            <a
+                              className="dropdown-toggle"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
                               <span>Servicios</span>
                               <i className="fa fa-angle-down" />
                             </a>
@@ -213,16 +215,17 @@ export default function Header() {
                           </a>
                           <ul className="sub-menu dropdown-menu">
                             <li className="dropdown">
-                              <a
-                                href="#"
-                                className="dropdown-toggle"
-                                data-toggle="dropdown"
-                                role="button"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                              >
-                                Madrid Zona Centro
-                              </a>
+                              <Link href="poceros-madrid">
+                                <a
+                                  className="dropdown-toggle"
+                                  data-toggle="dropdown"
+                                  role="button"
+                                  aria-haspopup="true"
+                                  aria-expanded="false"
+                                >
+                                  Madrid Zona Centro
+                                </a>
+                              </Link>
                             </li>
                             <li className="dropdown">
                               <a
@@ -450,13 +453,13 @@ export default function Header() {
                               </a>
                               <ul className="sub-menu dropdown-menu">
                                 <li>
-                                  <a href="#">Illescas</a>
+                                  <a href="poceros-illescas">Illescas</a>
                                 </li>
                                 <li>
-                                  <a href="#">Seseña</a>
+                                  <a href="poceros-sesena">Seseña</a>
                                 </li>
                                 <li>
-                                  <a href="#">Ocaña</a>
+                                  <a href="poceros-ocana">Ocaña</a>
                                 </li>
                               </ul>
                             </li>
@@ -474,13 +477,15 @@ export default function Header() {
                               </a>
                               <ul className="sub-menu dropdown-menu">
                                 <li>
-                                  <a href="#">Azuqueca de Henares</a>
+                                  <a href="poceros-azuqueca">
+                                    Azuqueca de Henares
+                                  </a>
                                 </li>
                                 <li>
-                                  <a href="#">Guadalajara</a>
+                                  <a href="poceros-guadalajara">Guadalajara</a>
                                 </li>
                                 <li>
-                                  <a href="#">Alovera</a>
+                                  <a href="poceros-alovera">Alovera</a>
                                 </li>
                               </ul>
                             </li>

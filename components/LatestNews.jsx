@@ -7,10 +7,10 @@ function LatestNews() {
           <div id="news" className="news">
             <div className="section-title">
               <h2 className="title">
-                <span>Latest News</span>
+                <span>Últimos trabajos</span>
               </h2>
               <p className="title-desc">
-                Out Service is so much helpful for your business
+                Consulta nuestros trabajos de poceros en Madrid
               </p>
             </div>
             <div className="clearfix" />
@@ -23,7 +23,7 @@ function LatestNews() {
                 </div>
                 <div className="content">
                   <h3 className="title">
-                    <a href="single.html">Globally E-Enable forward</a>
+                    <a href="single.html">Desatascos en Madrid </a>
                   </h3>
                   <div className="meta">
                     <span className="calendar">
@@ -55,7 +55,7 @@ function LatestNews() {
                 </div>
                 <div className="content">
                   <h3 className="title">
-                    <a href="single.html">Globally E-Enable forward</a>
+                    <a href="single.html">Obras de pocería en Madrid</a>
                   </h3>
                   <div className="meta">
                     <span className="calendar">

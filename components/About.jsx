@@ -19,41 +19,39 @@ function About() {
               {/* /.col-sm-6 col-md-6 */}
               <div className="col-md-6">
                 <div className="about-content">
-                  <h2 className="about-title">
-                    Mejores poceros en madrid
-                  </h2>
+                  <h2 className="about-title">Mejores poceros en madrid</h2>
                   <p>
-                    Grupal SL es una empresa de poceros en Madrid, ofrecemos servicios
-                    exclusivamente enfocados a la pocería, desplazándonos por
-                    toda la comunidad de Madrid. Actualmente llevamos más de 25
-                    años trabajando como poceros, siendo líderes entre las
-                    mejores empresas de pocería en Madrid, y gracias a eso,
-                    podemos ofrecer no solo los mejores servicios poceros, si no
-                    también ser la empresa de desatascos más económica de
-                    Madrid. Trabajamos desarrollando todo tipo de servicios
-                    especializados en pocería y saneamiento, y combinando esta
-                    profesión con el proyecto, la construcción y el desarrollo
-                    de obras e infraestructuras.
+                    Grupal SL es una empresa de poceros en Madrid, prestamos
+                    servicios dedicados a la pocería y destascos en toda la
+                    comunidad de Madrid. Actualmente, llevamos más de 25 años
+                    trabajando en el sector y estamos entre las mejores empresas
+                    de poceros de Madrid, por lo que no solo podemos prestar los
+                    mejores servicios de pocería, sino también ser la empresa de
+                    desatascos más económica de Madrid. Estamos comprometidos
+                    con el desarrollo de una amplia gama de servicios
+                    profesionales en alcantarillado y saneamiento, combinando
+                    esta experiencia con proyectos de ingeniería e
+                    infraestructura, construcción y desarrollo.
                   </p>
                   <p>
-                    Disponemos del mejor equipo de trabajadores, todos con
-                    titulación específica de pocería y prevención de riesgos
-                    laborales. Así siendo los más cualificados y eficaces. El
-                    equipo técnico y humano que tenemos ofrece la solución
-                    específica en cada caso, ya que nuestra filosofía es hacer
-                    nuestro el problema de cada cliente, para obtener del modo
-                    más eficiente el resultado definitivo, satisfactorio y
-                    fiable.
+                    Disponemos del mejor equipo de trabajadores con
+                    cualificación específica en fontanería y prevención de
+                    riesgos laborales. Por lo tanto, el más calificado y más
+                    eficaz. Contamos con equipos técnicos y humanos para dar
+                    soluciones específicas en cada caso porque nuestra filosofía
+                    es hacer nuestro cada uno de los problemas de nuestros clientes, de la
+                    manera más eficiente para obtener un resultado cierto,
+                    satisfactorio y confiable.
                   </p>
                   <p>
-                    Nuestro principal objetivo como poceros es ofrecer
+                    Nuestro objetivo preferente como poceros es ofrecer
                     desatascos económicos junto a los servicios de pocería,
                     queremos ser los más completos para todos nuestros clientes.
-                    Damos garantía del mejor resultado en nuestros trabajos de
-                    pocería ya que contamos con la mejor tecnología y de última
-                    generación para que los servicios urgentes a la hora de
-                    desatranco o desatasco, nuestros clientes puedan tener la
-                    avería solucionada lo antes posible. Son nuestros valores la
+                    Damos la garantía del mejor resultado posible en nuestros trabajos de
+                    pocería, y para realizarlo contamos con la mejor y última tecnología a disposición del cliente.
+                    Así en  los servicios urgentes, a la hora de realizar un
+                    desatranco o desatasco, nuestros clientes podrán tener la
+                    avería solucionada en el menos tiempo posible. Nuestras señas de identidad parten de la
                     fidelidad, el compromiso, la seriedad, la honestidad y la
                     transparencia.
                   </p>

@@ -7,13 +7,19 @@ export default function quienesSomos() {
   return (
     <>
       <Metas
-      title="Quienes Somos"
+      title="Quiénes Somos"
       content="Somos una empresa de servicios de limpieza y mantenimiento de comunidades de vecinos, empresas, oficinas, locales comerciales, etc. Nuestro objetivo es ofrecer un servicio de calidad a un precio competitivo."
       keywords="limpieza, mantenimiento, comunidades, empresas, oficinas, locales comerciales"
       />
       <BannerSingle pageTitle={"Quiénes Somos"} migasPan={"Quiénes Somos"} />
       <About />
-      <ServiceDetails />
+      <ServiceDetails
+      titleAcordeon1={"¿Quiénes somos?"}
+      contentAcordeon1={""}   
+      titleAcordeon2={"¿Quiénes somos?"}
+
+      titleAcordeon3={"¿Quiénes somos?"}
+      />
     </>
   );
 }

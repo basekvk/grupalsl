@@ -1,9 +1,10 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="es">
-      <meta charset="UTF-8" />
+      <meta charSet="UTF-8" />
       <meta name="author" content="Grupal SL" />
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
       {/* Mobile Specific Meta */}
@@ -48,8 +49,7 @@ export default function Document() {
         href="/assets/css/responsive.css"
       />
 
-      <Head></Head>
-      <body>
+      <Head>
         <script type="text/javascript" src="/assets/js/plugins.js"></script>
         <script
           type="text/javascript"
@@ -57,9 +57,12 @@ export default function Document() {
         ></script>
         <script type="text/javascript" src="/javascripts/app.js"></script>
         <script type="text/javascript" src="/assets/js/functions.js"></script>
-        
+      
+      </Head>
+      <body>
         <Main />
         <NextScript />
+      
       </body>
     </Html>
   );

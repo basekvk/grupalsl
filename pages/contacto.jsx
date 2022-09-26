@@ -1,14 +1,10 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-
 import Metas from "../components/Metas";
-import BannerSingle from '../components/BannerSingle';
+import BannerSingle from "../components/BannerSingle";
 
 function contacto() {
   return (
     <>
       <Metas />
-      
       <BannerSingle pageTitle={"Contacto"} migasPan={"Contacto"} />
 
       {/* /.page-header */}
@@ -22,7 +18,7 @@ function contacto() {
                     <span>ESCRÍBENOS</span>
                   </h2>
                   <p className="title-desc">
-                    Escribenos para preguntarnos por cualquier cuestión.
+                    Escríbenos para preguntarnos por cualquier cuestión.
                     Estaremos encantados de atenderte
                   </p>
                 </div>
@@ -131,17 +127,26 @@ function contacto() {
                   <h4>Síguenos</h4>
                   <ul className="social-media">
                     <li>
-                      <a href="#" className="facebook">
+                      <a
+                        href="https://www.facebook.com/GRUPALSL/"
+                        className="facebook"
+                      >
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="twitter">
+                      <a
+                        href="https://twitter.com/grupal_sl"
+                        className="twitter"
+                      >
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="instagram">
+                      <a
+                        href="https://www.instagram.com/grupalsl/?hl=es"
+                        className="instagram"
+                      >
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
@@ -151,35 +156,43 @@ function contacto() {
               {/* /.contact-info */}
             </aside>
             <div className="container">
-              <div className="row">
-                <div className="mapouter">
-                  <div className="gmap_canvas">
-                    <iframe
-                      width={1080}
-                      height={417}
-                      id="gmap_canvas"
-                      src="https://maps.google.com/maps?q=calle%20m%C3%A1laga%204%20valdemoro&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                      frameBorder={0}
-                      scrolling="no"
-                      marginHeight={0}
-                      marginWidth={0}
-                    />
-                    <a href="https://putlocker-is.org" />
-                    <br />
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          ".mapouter{position:relative;text-align:right;height:417px;width:1080px;}",
-                      }}
-                    />
-                    <a href="https://www.embedgooglemap.net" />
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          ".gmap_canvas {overflow:hidden;background:none!important;height:417px;width:1080px;}",
-                      }}
-                    />
-                  </div>
+              <div
+                className="mapouter"
+                style={{
+                  height: 350,
+                  width: "100%",
+                  display: "flex",
+                  flexFlow: "row nowrap",
+                  justifyContent: "center",
+                  padding: 0,
+                }}
+              >
+                <div className="gmap_canvas">
+                  <iframe
+                    width={1080}
+                    height={417}
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=calle%20m%C3%A1laga%204%20valdemoro&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameBorder={0}
+                    scrolling="no"
+                    marginHeight={0}
+                    marginWidth={0}
+                  />
+                  <a href="https://putlocker-is.org" />
+                  <br />
+                  <style
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        ".mapouter{position:relative;text-align:right;height:417px;width:1080px;}",
+                    }}
+                  />
+                  <a href="https://www.embedgooglemap.net" />
+                  <style
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        ".gmap_canvas {overflow:hidden;background:none!important;height:417px;width:1080px;}",
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -191,9 +204,6 @@ function contacto() {
         {/* /.container */}
       </div>
       {/* #content  */}
-      
-
-      
     </>
   );
 }

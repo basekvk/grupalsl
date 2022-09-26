@@ -58,7 +58,7 @@ function Footer() {
                             <span>
                               <i className="fa fa-globe" />
                             </span>{" "}
-                            <a href="">www.grupalsl.es.com</a>
+                            <a href="">www.grupalsl.es</a>
                           </li>
                         </ul>
                       </address>
@@ -236,17 +236,17 @@ function Footer() {
                   </a>
                   <ul className="social-media">
                     <li>
-                      <a href="#" className="facebook">
+                      <a href="https://www.facebook.com/GRUPALSL/" className="facebook">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="twitter">
+                      <a href="https://twitter.com/grupal_sl" className="twitter">
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="instagram">
+                      <a href="https://www.instagram.com/grupalsl/?hl=es" className="instagram">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>

@@ -1,20 +1,16 @@
-
-import Footer from './Footer';
-import Header from './Header';
-import Spinner from './Spinner';
+import Footer from "./Footer";
+import Header from "./Header";
 
 
-function Layout({children}) {
-    return (
-        <>
-            <Spinner />
-            <Header/>
-            <main>
-                {children}
-            </main>
-            <Footer />
-        </>
-    );
+function Layout({ children }) {
+  return (
+    <>
+      
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;

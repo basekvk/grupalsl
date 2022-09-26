@@ -7,11 +7,17 @@ function obrasDePoceria() {
   return (
     <>
       <Metas />
-   
+
       <BannerSingle
         pageTitle={"Obras de Pocería"}
         migasPan={"Obras de pocería"}
       />
+
+      <div className="container">
+        <div style={{ textAlign: "center", marginTop:"60px" }} >
+          <span>Aqui botón de wasap y llamada</span>
+        </div>
+      </div>
       <ServiceDetails
         foto={"images/home1/client1.jpg"}
         fotoAlt={""}
@@ -52,7 +58,6 @@ function obrasDePoceria() {
           "Trabajamos en ello realizando un mantenimiento adecuado para su correcto funcionamiento, rehabilitación de tuberías antiguas o deterioradas además de limpiar pozos negros, cloacas o realizando desatascos o desatrancos de tuberías o alcantarillados atascados por depósitos."
         }
       />
-     
     </>
   );
 }
