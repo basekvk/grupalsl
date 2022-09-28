@@ -4,6 +4,7 @@ import SearchArea from "../components/SearchArea";
 import BannerSingle from "../components/BannerSingle";
 
 
+
 function servicios() {
   return (
     <>
@@ -22,6 +23,8 @@ function servicios() {
 
       
       <SearchArea />
+
+     
 
       <BannerSingle pageTitle={"Servicios"} migasPan={"Servicios"} />
       {/* /.page-header */}

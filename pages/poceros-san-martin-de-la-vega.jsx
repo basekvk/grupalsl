@@ -1,5 +1,4 @@
 import BannerSingle from "../components/BannerSingle";
-
 import Metas from "../components/Metas";
 import ServiceDetails from "../components/ServiceDetails";
 

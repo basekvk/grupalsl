@@ -9,9 +9,7 @@ function Footer() {
                 <div className="footer-top-inner">
                   <div className="news-letter">
                     <div className="news-letter-inner">
-                      
                       <div className="clearfix" />
-                      
                     </div>
                   </div>
                 </div>
@@ -40,25 +38,33 @@ function Footer() {
                             <span>
                               <i className="fa fa-home" />
                             </span>{" "}
-                            Calle Málaga 4, Nave39. Valdemoro
+                            <a href="https://www.google.com/maps/place/Grupal+SL+Desatascos+y+Pocer%C3%ADa/@40.1673774,-3.660459,15z/data=!4m5!3m4!1s0x0:0x74b9bc20c09c495c!8m2!3d40.1673774!4d-3.660459">
+                              Calle Málaga 4, Nave39. Valdemoro
+                            </a>
                           </li>
                           <li>
                             <span>
                               <i className="fa fa-phone" />
                             </span>
-                            695 126 600 / 91 577 18 49{" "}
+                            <a href="tel:+34695126600">695 126 600</a>
+                            <span> / </span>
+                            <a href="tel:+34915771849">915 771 849</a>{" "}
                           </li>
                           <li>
                             <span>
                               <i className="fa fa-envelope-o" />
                             </span>{" "}
-                            <a href="">info@grupalsl.es</a>
+                            <a href="mailto:info@grupalsl.es">
+                              info@grupalsl.es
+                            </a>
                           </li>
                           <li>
                             <span>
                               <i className="fa fa-globe" />
                             </span>{" "}
-                            <a href="">www.grupalsl.es</a>
+                            <a href="https://www.grupalsl.es">
+                              www.grupalsl.es
+                            </a>
                           </li>
                         </ul>
                       </address>
@@ -147,61 +153,61 @@ function Footer() {
                     <h3 className="title">Más Servicios</h3>
                     <ul className="top-service">
                       <li>
-                        <a href="#">
+                        <a href="poceros-getafe">
                           <i className="fa fa-angle-right" />
                           Poceros en Getafe
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-grinon">
                           <i className="fa fa-angle-right" />
                           Poceros en Griñon
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-humanes">
                           <i className="fa fa-angle-right" />
                           Poceros en Humanes
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-mostoles">
                           <i className="fa fa-angle-right" />
                           Poceros en Móstoles
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-navalcarnero">
                           <i className="fa fa-angle-right" />
                           Poceros en Navalcarnero
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-parla">
                           <i className="fa fa-angle-right" />
                           Poceros en Parla
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-pinto">
                           <i className="fa fa-angle-right" />
                           Poceros en Pinto
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-valdemoro">
                           <i className="fa fa-angle-right" />
                           Poceros en Valdemoro
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-sesena">
                           <i className="fa fa-angle-right" />
                           Poceros en Seseña
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="poceros-aranjuez">
                           <i className="fa fa-angle-right" />
                           Poceros en Aranjuez
                         </a>
@@ -236,17 +242,26 @@ function Footer() {
                   </a>
                   <ul className="social-media">
                     <li>
-                      <a href="https://www.facebook.com/GRUPALSL/" className="facebook">
+                      <a
+                        href="https://www.facebook.com/GRUPALSL/"
+                        className="facebook"
+                      >
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/grupal_sl" className="twitter">
+                      <a
+                        href="https://twitter.com/grupal_sl"
+                        className="twitter"
+                      >
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/grupalsl/?hl=es" className="instagram">
+                      <a
+                        href="https://www.instagram.com/grupalsl/?hl=es"
+                        className="instagram"
+                      >
                         <i className="fa fa-instagram" />
                       </a>
                     </li>

@@ -31,6 +31,10 @@ export default function Document() {
       <link rel="stylesheet" href="/assets/css/animate.css" />
       <link
         rel="stylesheet"
+        href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css"
+      />
+      <link
+        rel="stylesheet"
         href="/assets/css/jquery.mCustomScrollbar.min.css"
       />
       <link rel="stylesheet" href="/assets/css/jquery.fs.boxer.min.css" />
@@ -49,7 +53,8 @@ export default function Document() {
         href="/assets/css/responsive.css"
       />
 
-      <Head>
+      <Head></Head>
+      <body>
         <script type="text/javascript" src="/assets/js/plugins.js"></script>
         <script
           type="text/javascript"
@@ -57,12 +62,9 @@ export default function Document() {
         ></script>
         <script type="text/javascript" src="/javascripts/app.js"></script>
         <script type="text/javascript" src="/assets/js/functions.js"></script>
-      
-      </Head>
-      <body>
+        <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
         <Main />
         <NextScript />
-      
       </body>
     </Html>
   );

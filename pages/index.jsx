@@ -1,5 +1,7 @@
 import LatestNews from "../components/LatestNews";
 import Metas from '../components/Metas';
+import Carrusel from '../components/Carrusel'
+
 
 
 
@@ -15,115 +17,10 @@ export default function Home() {
           "poceros madrid, desatascos tuberias, desatascos madrid, desatascos, desatarancos madrid, desatrancos, desatrancos Toledo , desatrancos en Madrid, desatrancos urgentes Madrid, limpieza de tuberias,  desatranco Illescas, desatascos en Madrid, pocería, desatrancos baratos Madrid, empresas de desatrancos, desatrancos Alcalá de Henares, poceros en Getafe, poceros en Griñon, poceros en Humanes, poceros en Móstoles, poceros en Navalcarnero, poceros en Parla, poceros en Pinto, Poceros en Valdemoro, poceros en Pozuelo, poceros en Majadahonda"
         }
       />
-      
-     
-      {/* start main-content  */}
-      <div id="content">
-        <div className="home-slider-area">
-          <div className="sleekslider">
-            {/* Slider Pages */}
-            <div className="slide active bg-1">
-              <div className="slide-container item-one">
-                <div className="image-one">
-                  <img src="images/home-slider/item-one/man.png" alt="images" />
-                </div>
-                <div className="image-two">
-                  <img
-                    src="images/home-slider/item-one/image-area.png"
-                    alt="images"
-                  />
-                </div>
-                <div className="text">
-                  <h2>Expertos Cualificados</h2>
-                  <h2
-                    style={{ fontSize: 50, fontWeight: 900, color: "#ffc527" }}
-                  >
-                    Obras de Pocería
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="slide bg-2">
-              <div className="slide-container item-two">
-                <div className="text">
-                  <h2 className="itext1">Desatascos 24 Horas</h2>
-                  <h1 className="itext2">Poceros en Madrid</h1>
-                  <h3 className="itext3">
-                    Empresa de pocería con los mejores precios
-                  </h3>
-                  <a href="#" className="custom-btn">
-                    Llámanos
-                  </a>
-                </div>
-                <div className="iimage2">
-                  <img
-                    src="images/home-slider/item-two/image.png"
-                    alt="images"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="slide bg-3">
-              <div className="slide-container item-three">
-                <div className="text">
-                  <h2 className="itext1">Servicios 24 horas</h2>
-                  <h2 className="itext2">Desatascos en Madrid</h2>
-                  <h3 className="itext3">
-                    Más de 25 años experiencia en el sector
-                  </h3>
-                  <ul>
-                    <li>
-                      <i className="fa fa-caret-right" />
-                      Los desatascos mas económicos
-                    </li>
-                    <li>
-                      <i className="fa fa-caret-right" />
-                      Mejor calidad-precio del mercado
-                    </li>
-                    <li>
-                      <i className="fa fa-caret-right" />
-                      Inspección con cámara gratuita
-                    </li>
-                  </ul>
-                  <a href="#" className="custom-btn">
-                    Llama YA
-                  </a>
-                </div>
-                <div className="iimage3">
-                  <img
-                    src="images/home-slider/item-three/slider03.png"
-                    alt="images"
-                  />
-                </div>
-              </div>
-            </div>
-            {/* Navigation Arrows with Thumbnails */}
-            <nav className="nav-split">
-              <a className="prev" href="">
-                <span className="icon-wrap">
-                  <i className="fa fa-angle-left" />
-                </span>
-                <div className="slider-thumb">
-                  <h3>Desatascos en Madrid</h3>
-                  <img
-                    src="images/wallhaven-27263-thumbnail.jpg"
-                    alt="Previous thumb"
-                  />
-                </div>
-              </a>
-              <a className="next" href="">
-                <span className="icon-wrap">
-                  <i className="fa fa-angle-right" />
-                </span>
-                <div className="slider-thumb">
-                  <h3>Poceros en Madrid</h3>
-                  <img src="images/wallhaven-3178-thumb.jpg" alt="Next thumb" />
-                </div>
-              </a>
-            </nav>
-          </div>
-        </div>
-        {/* end home slider area */}
+
+      <Carrusel />
+
+
         {/*  start service section  */}
         <div id="service">
           <div className="container">
@@ -196,7 +93,6 @@ export default function Home() {
                         </a>
                       </div>
                     </div>
-                    
                   </div>
                 </div>
                 {/* .our-service wrapper */}
@@ -271,7 +167,7 @@ export default function Home() {
         </div>
         {/* #service */}
         {/* start project section */}
-        <div id="project" className="project">
+        <div id="project" className="project mt-10">
           <div className="container">
             <div className="row">
               <div className="section-title">
@@ -290,14 +186,14 @@ export default function Home() {
                     <div className="post-thumb">
                       <a href="single.html">
                         <img
-                          src="images/home1/project-img1.jpg"
+                          src="images/grupal/alcantarillados.jpeg"
                           alt="Projects"
                         />
                       </a>
                       <div className="overlay" />
                       <div className="overlay-search-link">
                         <a
-                          href="images/home1/project-img1.jpg"
+                          href="images/grupal/alcantarillados.jpeg"
                           className="search-link boxer"
                         >
                           <i className="fa fa-search" />
@@ -324,14 +220,14 @@ export default function Home() {
                     <div className="post-thumb">
                       <a href="single.html">
                         <img
-                          src="images/home1/project-img2.jpg"
+                          src="images/grupal/zanjas.jpeg"
                           alt="Projects"
                         />
                       </a>
                       <div className="overlay" />
                       <div className="overlay-search-link">
                         <a
-                          href="images/home1/project-img2.jpg"
+                          href="images/grupal/zanjas.jpeg"
                           className="search-link boxer"
                         >
                           <i className="fa fa-search" />
@@ -358,14 +254,14 @@ export default function Home() {
                     <div className="post-thumb">
                       <a href="single.html">
                         <img
-                          src="images/home1/project-img3.jpg"
+                          src="images/grupal/retroexcavadora.jpeg"
                           alt="Projects"
                         />
                       </a>
                       <div className="overlay" />
                       <div className="overlay-search-link">
                         <a
-                          href="images/home1/project-img3.jpg"
+                          href="images/grupal/retroexcavadora.jpeg"
                           className="search-link boxer"
                         >
                           <i className="fa fa-search" />
@@ -389,8 +285,8 @@ export default function Home() {
                 </div>
                 <div className="clearfix" />
                 <div className="view-all-project">
-                  <a href="single.html" className="custom-btn">
-                    Ver todos los proyectos
+                  <a href="servicios" className="custom-btn">
+                    Ver todos los servicios
                   </a>
                 </div>
                 {/* /.view-all-project */}
@@ -402,12 +298,11 @@ export default function Home() {
           {/* /.container */}
         </div>
         {/* /#project */}
-        
+
         <LatestNews />
 
-      
         {/* jquery include */}
-      </div>
+      
     </>
   );
 }

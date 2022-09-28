@@ -96,9 +96,9 @@ function LatestNews() {
               <div className="testimonial">
                 <div className="section-title">
                   <h2 className="title">
-                    <span>What Our Client Say</span>
+                    <span>Nuestros Clientes </span>
                   </h2>
-                  <p className="title-desc">Most of the client like our work</p>
+                  <p className="title-desc">Nuestros clientes nos avalan</p>
                 </div>
                 <div className="entry-slider">
                   <div className="flexslider">
@@ -107,7 +107,7 @@ function LatestNews() {
                         <li data-thumb="images/home1/thumb/testimonial-thumb1.jpg">
                           <div className="testimonial-content">
                             <h3>
-                              <span className="name">Rokeya Moyesa</span>
+                              <span className="name">Paco Jones</span>
                             </h3>
                             <span className="desc">Custom</span>
                             <div className="quotation">
@@ -127,7 +127,7 @@ function LatestNews() {
                         <li data-thumb="images/home1/thumb/testimonial-thumb2.jpg">
                           <div className="testimonial-content">
                             <h3>
-                              <span className="name">Rokeya Moyesa</span>
+                              <span className="name">Fermín Galarga</span>
                             </h3>
                             <span className="desc">Custom</span>
                             <div className="quotation">
@@ -147,7 +147,7 @@ function LatestNews() {
                         <li data-thumb="images/home1/thumb/testimonial-thumb3.jpg">
                           <div className="testimonial-content">
                             <h3>
-                              <span className="name">Rokeya Moyesa</span>
+                              <span className="name">Aytor Tilla</span>
                             </h3>
                             <span className="desc">Custom</span>
                             <div className="quotation">
@@ -179,46 +179,7 @@ function LatestNews() {
       </div>
       {/* /#news-testimonial */}
       {/* countdown section */}
-      <div id="countdown">
-        <div className="container">
-          <div className="row">
-            <div className="cd-container">
-              <div className="cd-container-inner">
-                <div className="cd-item">
-                  <span className="number-outer">
-                    <span className="number">128</span>
-                  </span>
-                  <span className="count-name">Successfull Projects</span>
-                </div>
-                {/* /.cd-item */}
-                <div className="cd-item">
-                  <span className="number-outer">
-                    <span className="number">150</span>
-                  </span>
-                  <span className="count-name">Clients</span>
-                </div>
-                {/* /.cd-item */}
-                <div className="cd-item">
-                  <span className="number-outer">
-                    <span className="number">100</span>+
-                  </span>
-                  <span className="count-name">Example Projects</span>
-                </div>
-                {/* /.cd-item */}
-                <div className="cd-item">
-                  <span className="number-outer">
-                    <span className="number">75</span>+
-                  </span>
-                  <span className="count-name">Services</span>
-                </div>
-                {/* /.cd-item */}
-              </div>
-            </div>
-          </div>
-          {/* /.row */}
-        </div>
-        {/* /.container */}
-      </div>
+ 
       {/* start expert plumbers section  */}
       <div id="expert">
         <div className="container">
